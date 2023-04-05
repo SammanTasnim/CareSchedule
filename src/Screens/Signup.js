@@ -41,6 +41,20 @@ const Signup = (props) => {
             props.navigation.navigate("Counter");
           }}
         />
+      </View> <View>
+        <Text style={{ fontSize: 40 }}>Hello World</Text>
+        <Button
+          title="Go To Another Page"
+          onPress={() => {
+            props.navigation.navigate("List");
+          }}
+        />
+        <Button
+          title="Go To Counter Page"
+          onPress={() => {
+            props.navigation.navigate("Counter");
+          }}
+        />
       </View> 
 
       { <View>
