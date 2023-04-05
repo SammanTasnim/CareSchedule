@@ -26,7 +26,7 @@ const Signup = (props) => {
     
       </View>
 
-      {/* <View>
+      { <View>
         <Text style={{ fontSize: 40 }}>Hello World</Text>
         <Button
           title="Go To Another Page"
@@ -40,7 +40,7 @@ const Signup = (props) => {
             props.navigation.navigate("Counter");
           }}
         />
-      </View> */}
+      </View> }
     </SafeAreaView>
   );
 };
