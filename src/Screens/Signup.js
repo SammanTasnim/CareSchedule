@@ -26,6 +26,10 @@ const Signup = (props) => {
     
       </View>
 
+    
+
+      <Text style={{alignItems : 'center', color : 'white', fontSize : 30}}>Create account</Text>
+
       { <View>
         <Text style={{ fontSize: 40 }}>Hello World</Text>
         <Button
@@ -40,7 +44,8 @@ const Signup = (props) => {
             props.navigation.navigate("Counter");
           }}
         />
-      </View> }
+      </View> 
+      }
     </SafeAreaView>
   );
 };
