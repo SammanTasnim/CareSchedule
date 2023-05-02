@@ -1,6 +1,9 @@
 import React from "react";
 import { Button, Text, View, StyleSheet, Image } from "react-native";
 import SafeAreaView from "react-native-safe-area-view";
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+
 import NavigationMain from "../NavigationMain"
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 

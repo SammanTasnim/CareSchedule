@@ -12,7 +12,7 @@ const Signup = (props) => {
       </View>
 
       <View style={{ alignContent: 'center', alignItems: 'center', flex: 3 }}>
-        <TextInput placeholder="Email" style={{ backgroundColor: 'white', height: 50, width: "80%", borderRadius: 10, borderColor: 'black', margin: 20, fontSize: 20 }} placeholderTextColor="black" />
+        <TextInput placeholder="Email" style={{ backgroundColor: 'white', height: 50, width: "80%", borderRadius: 10, borderColor: 'black', margin: 20, fontSize: 20, padding:10 }} placeholderTextColor="black" />
         <TextInput placeholder="Password" style={{ backgroundColor: 'white', height: 50, width: "80%", borderRadius: 10, borderColor: 'black', margin: 20, fontSize: 20 }} placeholderTextColor="black" />
         <TextInput placeholder="Age" style={{ backgroundColor: 'white', height: 50, width: "80%", borderRadius: 10, borderColor: 'black', margin: 20, fontSize: 20 }} placeholderTextColor="black" />
         <TextInput placeholder="Gender" style={{ backgroundColor: 'white', height: 50, width: "80%", borderRadius: 10, borderColor: 'black', margin: 20, fontSize: 20 }} placeholderTextColor="black" />
