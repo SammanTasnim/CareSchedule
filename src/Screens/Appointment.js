@@ -32,7 +32,7 @@ const Appointment = (props) => {
             {/* Appointment */}
             <View style={styles.scheduleApCallView}>
                 <TouchableOpacity  onPress={()=> {
-                    props.navigation.navigate("Serial");
+                    props.navigation.navigate("AppInput");
                 }}>
                      <Text style={styles.scheduleApCallText}><Ionicons style={{color : 'grey'}} name="play" size={24} color="black" /> Appointment</Text>
                      
