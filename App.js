@@ -17,7 +17,7 @@ function App() {
         <stack.Screen name="Login" component={Login} />
         <stack.Screen name="Sign" component={Signup} />
         <stack.Screen name="Dash" component={Dashboard} />
-        <stack.Screen name="Profile" component={Profile} />
+        {/* <stack.Screen name="Profile" component={Profile} /> */}
         <stack.Screen name="Appointment" component={Appointment} />
         <stack.Screen name="Serial" component={Serial} />
 
@@ -31,6 +31,6 @@ function App() {
     //   </stack.Navigator>
     // </NavigationContainer>
   );
-}
+};
 
 export default App;
